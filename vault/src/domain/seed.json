@@ -1,0 +1,280 @@
+{
+  "profile": {
+    "name": "Eleanor Whitfield",
+    "email": "eleanor@whitfield.family",
+    "phone": "(561) 555-0142",
+    "address": "[Mailing address]",
+    "role": "Grantor"
+  },
+  "prefs": {
+    "theme": "light",
+    "themeSet": true,
+    "delivery": "Portal and email"
+  },
+  "notify": {
+    "dist": true,
+    "deadlines": true,
+    "statement": true,
+    "docs": false,
+    "sms": false
+  },
+  "security": {
+    "twofa": true,
+    "alerts": true
+  },
+  "aua": 1240000000,
+  "trusts": [
+    {
+      "id": "t1",
+      "name": "Whitfield Dynasty Trust",
+      "type": "Dynasty trust",
+      "state": "South Dakota",
+      "assets": 640000000,
+      "trustee": "Vault",
+      "protector": "R. Hale (independent)",
+      "est": "2014",
+      "bens": "Claire, James, Olivia and descendants"
+    },
+    {
+      "id": "t2",
+      "name": "2026 GRAT",
+      "type": "Grantor retained annuity trust",
+      "state": "Delaware",
+      "assets": 180000000,
+      "trustee": "Eleanor Whitfield",
+      "protector": "None",
+      "est": "2026",
+      "bens": "Gen 2 remainder"
+    },
+    {
+      "id": "t3",
+      "name": "Whitfield ILIT",
+      "type": "Irrevocable life insurance trust",
+      "state": "Florida",
+      "assets": 40000000,
+      "trustee": "Vault",
+      "protector": "None",
+      "est": "2018",
+      "bens": "Claire, James, Olivia"
+    },
+    {
+      "id": "t4",
+      "name": "Whitfield Charitable Remainder Trust",
+      "type": "Charitable remainder trust",
+      "state": "Florida",
+      "assets": 85000000,
+      "trustee": "Vault",
+      "protector": "None",
+      "est": "2021",
+      "bens": "Eleanor (income), Whitfield Foundation (remainder)"
+    },
+    {
+      "id": "t5",
+      "name": "Whitfield Holdings LLC",
+      "type": "Family LLC",
+      "state": "Nevada",
+      "assets": 295000000,
+      "trustee": "Manager-managed",
+      "protector": "—",
+      "est": "2012",
+      "bens": "Owned by Dynasty Trust and GRAT"
+    }
+  ],
+  "docs": [
+    {
+      "name": "Dynasty Trust agreement (restated)",
+      "trust": "Whitfield Dynasty Trust",
+      "date": "Mar 4, 2026",
+      "kind": "Instrument"
+    },
+    {
+      "name": "2025 trust tax packet for CPA",
+      "trust": "All trusts",
+      "date": "Feb 18, 2026",
+      "kind": "Tax"
+    },
+    {
+      "name": "GRAT annuity schedule",
+      "trust": "2026 GRAT",
+      "date": "Jan 12, 2026",
+      "kind": "Schedule"
+    },
+    {
+      "name": "ILIT policy statement",
+      "trust": "Whitfield ILIT",
+      "date": "Oct 2, 2026",
+      "kind": "Insurance"
+    },
+    {
+      "name": "Q3 trustee meeting minutes",
+      "trust": "Whitfield Dynasty Trust",
+      "date": "Oct 20, 2026",
+      "kind": "Minutes"
+    },
+    {
+      "name": "Holdings LLC operating agreement",
+      "trust": "Whitfield Holdings LLC",
+      "date": "Jun 9, 2025",
+      "kind": "Instrument"
+    },
+    {
+      "name": "Holdings LLC 2025 appraisal",
+      "trust": "Whitfield Holdings LLC",
+      "date": "Feb 2, 2026",
+      "kind": "Valuation"
+    },
+    {
+      "name": "Whitfield family charter (draft)",
+      "trust": "Family governance",
+      "date": "Sep 12, 2026",
+      "kind": "Governance"
+    }
+  ],
+  "dist": [
+    {
+      "who": "Olivia Whitfield",
+      "trust": "Whitfield Dynasty Trust",
+      "amount": 40000,
+      "purpose": "Medical expenses",
+      "status": "Pending trustee review",
+      "date": "Oct 28, 2026"
+    },
+    {
+      "who": "Claire Whitfield",
+      "trust": "Whitfield Dynasty Trust",
+      "amount": 250000,
+      "purpose": "Home purchase",
+      "status": "Approved",
+      "date": "Sep 30, 2026"
+    },
+    {
+      "who": "James Whitfield",
+      "trust": "Whitfield Dynasty Trust",
+      "amount": 60000,
+      "purpose": "Graduate tuition",
+      "status": "Paid",
+      "date": "Aug 14, 2026"
+    },
+    {
+      "who": "Eleanor Whitfield",
+      "trust": "Whitfield Charitable Remainder Trust",
+      "amount": 212500,
+      "purpose": "Annual unitrust payment",
+      "status": "Paid",
+      "date": "Jul 1, 2026"
+    }
+  ],
+  "cal": [
+    {
+      "date": "Nov 10, 2026",
+      "item": "Confirm Crummey notice recipients",
+      "trust": "Whitfield ILIT",
+      "owner": "You"
+    },
+    {
+      "date": "Nov 15, 2026",
+      "item": "Crummey notices to beneficiaries",
+      "trust": "Whitfield ILIT",
+      "owner": "Vault"
+    },
+    {
+      "date": "Dec 1, 2026",
+      "item": "GRAT annuity payment",
+      "trust": "2026 GRAT",
+      "owner": "Vault"
+    },
+    {
+      "date": "Dec 15, 2026",
+      "item": "Annual family meeting and trustee review",
+      "trust": "Family governance",
+      "owner": "Family + Vault"
+    },
+    {
+      "date": "Jan 31, 2027",
+      "item": "Year-end valuation of Holdings LLC",
+      "trust": "Whitfield Holdings LLC",
+      "owner": "Appraiser via Vault"
+    },
+    {
+      "date": "Mar 15, 2027",
+      "item": "Tax data packet to Ortiz & Co.",
+      "trust": "All trusts",
+      "owner": "Vault"
+    }
+  ],
+  "heirs": [
+    {
+      "name": "Eleanor Whitfield",
+      "gen": "Gen 1",
+      "role": "Grantor",
+      "access": "Full"
+    },
+    {
+      "name": "Claire Whitfield",
+      "gen": "Gen 2",
+      "role": "Beneficiary",
+      "access": "Full"
+    },
+    {
+      "name": "James Whitfield",
+      "gen": "Gen 2",
+      "role": "Beneficiary, successor trustee",
+      "access": "Full"
+    },
+    {
+      "name": "Olivia Whitfield",
+      "gen": "Gen 2",
+      "role": "Beneficiary",
+      "access": "Full"
+    },
+    {
+      "name": "Henry Whitfield",
+      "gen": "Gen 3",
+      "role": "Beneficiary, age 19",
+      "access": "Education"
+    },
+    {
+      "name": "Ava Whitfield",
+      "gen": "Gen 3",
+      "role": "Beneficiary, age 16",
+      "access": "Education"
+    },
+    {
+      "name": "Leo Whitfield",
+      "gen": "Gen 3",
+      "role": "Beneficiary, age 12",
+      "access": "None"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "k1",
+      "text": "Review Olivia’s distribution request",
+      "sub": "$40,000 · Dynasty Trust · submitted Oct 28",
+      "action": "Review",
+      "go": "distributions"
+    },
+    {
+      "id": "k2",
+      "text": "Sign Q3 trustee meeting minutes",
+      "sub": "Dynasty Trust · e-signature",
+      "action": "Sign"
+    },
+    {
+      "id": "k3",
+      "text": "Confirm Crummey notice recipients",
+      "sub": "Whitfield ILIT · due Nov 10",
+      "action": "Confirm"
+    }
+  ],
+  "active": {
+    "trustee": true,
+    "protector": false,
+    "tax": true,
+    "entities": true,
+    "valuation": true,
+    "governance": true,
+    "charitable": true,
+    "nextgen": true
+  }
+}
